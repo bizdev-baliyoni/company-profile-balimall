@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/logo.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+        <div class="container ps-md-5 pe-md-5">
+            
+            <a class="navbar-brand ps-md-5" href="index.html">
+                <div class="d-flex">
+                    <img src="./assets/images/ATM.png" width="150px" alt="">
+                    <!-- <div class="d-flex flex-column">
+                        <p class="pt-2 bold mb-0">Ar<span class="text-danger">T</span>rade</p>
+                        <small class="text-danger bold" style="font-size: 14px;">Smart Solution</small>
+                    </div> -->
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pe-md-5 align-items-center" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pt-4 pb-4">
+                    <li class="nav-item pe-md-4">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item pe-md-4">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item pe-md-4">
+                        <a class="nav-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item pe-md-4">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item pe-md-4 px-2">
+                        <div class="dropdown" id="button_language">
+                            <button class="btn dropdown-toggle language-toggle" onclick="changedropdown()" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <figure>
+                                <img src="./assets/images/language.svg" class="filter-svg" alt="">
+                              </figure>
+                            </button>
+                            <div class="dropdown-menu link-language" id="dropdown_language" aria-labelledby="dropdownMenuButton">
+                                <figure onclick="changeLanguage('ind')" class="mx-2">
+                                    <img src="./assets/images/indo_flag.png" alt="">
+                                </figure>
+                                <figure onclick="changeLanguage('eng')">
+                                    <img src="./assets/images/usa_flag.png" class="mx-2" alt="">
+                                </figure>
+                            </div>
+                          </div>
+                        <!-- <div class="d-flex link-language px-1
+                        pt-2">
+                            <figure onclick="changeLanguage('ind')">
+                                <img src="./assets/images/indo_flag.png" alt="">
+                            </figure>
+                            <span>/</span>
+                            <figure onclick="changeLanguage('eng')">
+                                <img src="./assets/images/usa_flag.png" alt="">
+                            </figure>
+                        </div> -->
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+
+    <div id="IndView">
+        <!-- content -->
+    <!-- title -->
+    <section class="bg-dark text-light py-5">
+        <div class="container ps-md-5 pe-md-5 pt-5" >
+            <div class="pt-5 ps-md-5 pe-md-5">
+                <h1 class="bold pt-md-5" style="font-size: 50pt;">Terhubung dengan kami</h1>
+                <h3>Ingin menghubungi kami? Kami akan sangat senang dapat terhubung dengan anda! Hubungi kami</h3>
+                <hr style="border: 5px solid #dc3545; width: 200px">
+            </div>
+        </div>
+    </section>
+    <!-- end title -->
+
+    <!-- visi misi -->
+    <!-- sejarah -->
+    <section>
+        <div class="container p-5">
+            <!-- <h1 class="bold text-center mb-5">Our Services</h1> -->
+            <div class="row mb-4 ps-md-5 pe-md-5">
+                <div class="col-md-6">
+                    <h1 class="bold mb-5">Hubungi Kami</h1>
+
+                    <div class="mb-3">
+                        <input type="text" id="name" class="form-control py-3" placeholder="Nama">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" id="email" class="form-control py-3" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" id="phone" class="form-control py-3" placeholder="No. Telepon">
+                    </div>
+                    <div class="mb-3">
+                        <select id="subject" class="form-control py-3">
+                            <option value="" selected disabled>-Pilih Subject-</option>
+                            <option value="Registration">Registration</option>
+                            <option value="Robot">Robot</option>
+                            <option value="Broker">Broker</option>
+                            <option value="Withdrawal">Withdrawal</option>
+                            <option value="Rate">Rate</option>
+                            <option value="Legal">Legal</option>
+                            <option value="Other">Other</option>
+                          </select>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" name="" id="message" cols="30" rows="10" placeholder="Pesan"></textarea>
+                    </div>
+
+                    <a href="https://wa.me/6281131186888" id="contact-button" class="btn btn-lg btn-danger w-100 py-3">Kirim Pesan</a>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="w-100 h-100">
+                        <iframe class="h-100 w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6704898703706!2d106.78764681452873!3d-6.1748499955295495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f74ca2c1fefb%3A0x66eb07e0fb3775c1!2sSOHO%20Podomoro%20City!5e0!3m2!1sid!2sid!4v1654227495729!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end sejarah -->
+    
+    <!-- kontak -->
+    <section class="bg-body">
+        <div class="container p-5">
+            <div class="row mb-4 ps-md-5 pe-md-5">
+                <div class="col-md-4">
+                    <h1 class="bold">Kontak Kami</h1>
+                    <h2 class="text-danger">HQ Office</h2>
+                    <p class="text-gray">Soho Podomorocity lt.16 Central Park Area Jl. S
+                        Parman-Jakarta Barat Indonesia</p>
+                    <div class="mt-2 w-100">
+                        <a href="" class="text-decoration-none">
+                            <img src="./assets/images/ic-ig-red.png" alt="">
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <img src="./assets/images/ic-fb-red.png" alt="">
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <img src="./assets/images/ic-tele-red.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-5 mt-md-0">
+                    <div class="d-flex px-md-5 mt-md-5">
+                        <img src="./assets/images/phone-icon.png" alt="">
+                        <div class="d-block ms-3">
+                            <label for="" class="text-danger bold">Telepon</label>
+                            <p class="text-gray">+62811 31186888</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-4 mt-md-0">
+                    <div class="d-flex px-md-5 mt-md-5">
+                        <img src="./assets/images/email-icon.png" alt="">
+                        <div class="d-block ms-3">
+                            <label for="" class="text-danger bold">Email</label>
+                            <p class="text-gray">support@artrade.id</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- kontak -->
+    
+    </div>
+    <div id="EngView">
+        <!-- content -->
+        <!-- title -->
+        <section class="bg-dark text-light py-5">
+            <div class="container ps-md-5 pe-md-5 pt-5" >
+                <div class="pt-5 ps-md-5 pe-md-5">
+                    <h1 class="bold pt-md-5" style="font-size: 50pt;">Connect with us</h1>
+                    <h3>Want to contact us? We would love to connect with you! contact us</h3>
+                    <hr style="border: 5px solid #dc3545; width: 200px">
+                </div>
+            </div>
+        </section>
+        <!-- end title -->
+
+        <!-- visi misi -->
+        <!-- sejarah -->
+        <section>
+            <div class="container p-5">
+                <!-- <h1 class="bold text-center mb-5">Our Services</h1> -->
+                <div class="row mb-4 ps-md-5 pe-md-5">
+                    <div class="col-md-6">
+                        <h1 class="bold mb-5">Contact us</h1>
+
+                        <div class="mb-3">
+                            <input type="text" id="name" class="form-control py-3" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="email" class="form-control py-3" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="phone" class="form-control py-3" placeholder="Telephone">
+                        </div>
+                        <div class="mb-3">
+                            <select id="subject" class="form-control py-3">
+                                <option value="" selected disabled>-Choose Subject-</option>
+                                <option value="Registration">Registration</option>
+                                <option value="Robot">Robot</option>
+                                <option value="Broker">Broker</option>
+                                <option value="Withdrawal">Withdrawal</option>
+                                <option value="Rate">Rate</option>
+                                <option value="Legal">Legal</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" name="" id="message" cols="30" rows="10" placeholder="Pesan"></textarea>
+                        </div>
+
+                        <a href="https://wa.me/6281131186888" id="contact-button" class="btn btn-lg btn-danger w-100 py-3">Send Message</a>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="w-100 h-100">
+                            <iframe class="h-100 w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6704898703706!2d106.78764681452873!3d-6.1748499955295495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f74ca2c1fefb%3A0x66eb07e0fb3775c1!2sSOHO%20Podomoro%20City!5e0!3m2!1sid!2sid!4v1654227495729!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- end sejarah -->
+        
+        <!-- kontak -->
+        <section class="bg-body">
+            <div class="container p-5">
+                <div class="row mb-4 ps-md-5 pe-md-5">
+                    <div class="col-md-4">
+                        <h1 class="bold">Contact Us</h1>
+                        <h2 class="text-danger">HQ Office</h2>
+                        <p class="text-gray">Soho Podomorocity lt.16 Central Park Area Jl. S
+                            Parman-Jakarta Barat Indonesia</p>
+                        <div class="mt-2 w-100">
+                            <a href="" class="text-decoration-none">
+                                <img src="./assets/images/ic-ig-red.png" alt="">
+                            </a>
+                            <a href="" class="text-decoration-none">
+                                <img src="./assets/images/ic-fb-red.png" alt="">
+                            </a>
+                            <a href="" class="text-decoration-none">
+                                <img src="./assets/images/ic-tele-red.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-5 mt-md-0">
+                        <div class="d-flex px-md-5 mt-md-5">
+                            <img src="./assets/images/phone-icon.png" alt="">
+                            <div class="d-block ms-3">
+                                <label for="" class="text-danger bold">Telephone</label>
+                                <p class="text-gray">+62811 31186888</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-4 mt-md-0">
+                        <div class="d-flex px-md-5 mt-md-5">
+                            <img src="./assets/images/email-icon.png" alt="">
+                            <div class="d-block ms-3">
+                                <label for="" class="text-danger bold">Email</label>
+                                <p class="text-gray">support@artrade.id</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- kontak -->
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-light text-dark py-5">
+        <div class="container mt-5 ps-md-5 pe-md-5">
+            <div class="row ps-md-5 pe-md-5">
+                <div class="col-md-4">
+                    <div class="mb-3" style="height: 100px;">
+                        <div class="d-flex">
+                            <img width="150px" src="./assets/images/ATM.png" alt="">
+                            <!-- <div class="d-flex flex-column">
+                                <p class="pt-2 bold mb-0">Ar<span class="text-danger">T</span>rade</p>
+                                <small class="text-center text-danger bold">Smart Solution</small>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="mt-2 w-100">
+                        <a href="" class="text-decoration-none">
+                            <img src="./assets/images/logo-ig.png" alt="">
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <img src="./assets/images/logo-fb.png" alt="">
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <img src="./assets/images/logo-tele.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 ps-md-5 mt-5 mt-md-0">
+                    <h2>Menu</h2>
+                    <ul class="list-unstyled list-group custom-footer">
+                        <li class="py-2">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="service.html">Services</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="contact.html" class="active">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mt-5 mt-md-0">
+                    <h2 class="pb-3">Office Location</h2>
+                    <div class="text-gray">
+
+                        <p class="lh-lg pb-3">Soho Podomorocity lt.16 Central Park Area Jl. S Parman-Jakarta Barat Indonesia</p>
+                        <p> <img src="./assets/images/ic-phone.png" alt=""> 6281131186888</p>
+                        <span><img src="./assets/images/ic-email.png" alt=""> support@artrade.id</span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-center mt-5 text-gray">© Copyright 2024 PT. Arisma Teknika Mesari</p>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+         var dataLanguage = localStorage.getItem('Language')
+        var checkdropdown = false
+        if(dataLanguage === 'ind'){
+            document.getElementById('IndView').style.display = 'block'
+            document.getElementById('EngView').style.display = 'none'
+        }else if(dataLanguage === 'eng'){
+            document.getElementById('IndView').style.display = 'none'
+            document.getElementById('EngView').style.display = 'block'
+        }else{
+            localStorage.setItem('Language','ind')
+            document.getElementById('IndView').style.display = 'block'
+            document.getElementById('EngView').style.display = 'none'
+        }
+        function changedropdown(){
+            if(!checkdropdown){
+                checkdropdown = true
+                document.getElementById('button_language').classList.add('show')
+                document.getElementById('dropdown_language').classList.add('show')
+            }else{
+                checkdropdown = false
+                document.getElementById('button_language').classList.remove('show')
+                document.getElementById('dropdown_language').classList.remove('show')
+            }
+        }
+        function changeLanguage(data){
+            localStorage.setItem('Language',data)
+            if(data === 'ind'){
+                document.getElementById('IndView').style.display = 'block'
+                document.getElementById('EngView').style.display = 'none'
+                checkdropdown = false
+                document.getElementById('button_language').classList.remove('show')
+                document.getElementById('dropdown_language').classList.remove('show')
+            }else if(data === 'eng'){
+                document.getElementById('IndView').style.display = 'none'
+                document.getElementById('EngView').style.display = 'block'
+                checkdropdown = false
+                document.getElementById('button_language').classList.remove('show')
+                document.getElementById('dropdown_language').classList.remove('show')
+            }
+        }
+        let contactButton = document.querySelector('#contact-button')
+        contactButton.addEventListener('click', handleSubmit)
+
+        function handleSubmit(e){
+            e.preventDefault()
+            let name = document.getElementById('name').value
+            let email = document.getElementById('email').value
+            let phone = document.getElementById('phone').value
+            let subject = document.getElementById('subject').value
+            let message = document.getElementById('message').value
+
+            if(email == '' || name == '' || phone== '' || subject== ''){
+                    alert('Pastikan seluruh kolom terisi dengan benar')
+                    return false
+            }
+
+            let url = $(this).attr('href')
+            url = `${url}?text=[ARTRADE CONTACT]%0D%0ANama: ${name} %0D%0AEmail: ${email} %0D%0ANo.Telepon: ${phone} %0D%0ASubject: ${subject} %0D%0APesan: ${message}`
+                
+            window.open(url, target='_blank')
+        }
+    </script>
+    
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
