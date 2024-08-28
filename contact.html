@@ -105,13 +105,13 @@
                     <div class="mb-3">
                         <select id="subject" class="form-control py-3">
                             <option value="" selected disabled>-Pilih Subject-</option>
-                            <option value="Registration">Pembeli Umum</option>
-                            <option value="Robot">Pembeli Pemerintah</option>
-                            <option value="Broker">Pembeli Korporasi</option>
-                            <option value="Withdrawal">Penjual Umum</option>
-                            <option value="Rate">Penjual Pemerintah</option>
-                            <option value="Legal">Penjual Korporasi</option>
-                            <option value="Other">Lainnya</option>
+                            <option value="Pembeli Umum">Pembeli Umum</option>
+                            <option value="Pembeli Pemerintah">Pembeli Pemerintah</option>
+                            <option value="Pembeli Korporasi">Pembeli Korporasi</option>
+                            <option value="Penjual Umum">Penjual Umum</option>
+                            <option value="Penjual Pemerintah">Penjual Pemerintah</option>
+                            <option value="Penjual Korporasi">Penjual Korporasi</option>
+                            <option value="Lainnya">Lainnya</option>
                           </select>
                     </div>
                     <div class="mb-3">
@@ -400,7 +400,7 @@
             }
 
             let url = $(this).attr('href')
-            url = `${url}?text=[ARTRADE CONTACT]%0D%0ANama: ${name} %0D%0AEmail: ${email} %0D%0ANo.Telepon: ${phone} %0D%0ASubject: ${subject} %0D%0APesan: ${message}`
+            url = `${url}?text=[Landing Page PT.BUS]%0D%0ANama: ${name} %0D%0AEmail: ${email} %0D%0ANo.Telepon: ${phone} %0D%0ASubjek: ${subject} %0D%0APesan: ${message}`
                 
             window.open(url, target='_blank')
         }
