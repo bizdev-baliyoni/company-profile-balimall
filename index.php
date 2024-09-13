@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/assets/images/logo.ico"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <!-- Bootstrap datepicker CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/33c0f72281.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Tentang Kami</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+      <div class="container ps-md-5 pe-md-5">
+        <a class="navbar-brand ps-md-5" href="index.php">
+          <div class="d-flex">
+            <img src="./assets/images/logo-balimall.png" width="150px" alt="" />
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse pe-md-5 align-items-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pt-4 pb-4">
+            <li class="nav-item pe-md-4">
+              <a class="nav-link active" aria-current="page" href="#">Tentang Kami</a>
+            </li>
+            <li class="nav-item pe-md-4">
+              <a class="nav-link" href="./product.php">Produk Kami</a>
+            </li>
+            <li class="nav-item pe-md-4">
+              <a class="nav-link" href="./partnership.php">Kerjasama</a>
+            </li>
+            <li class="nav-item pe-md-4">
+              <a class="nav-link" href="contact.php">Kontak</a>
+            </li>
+            <!-- <li class="nav-item pe-md-4 px-2">
+              <div class="dropdown" id="button_language">
+                <button
+                  class="btn dropdown-toggle language-toggle"
+                  onclick="changedropdown()"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="true"
+                >
+                  <figure>
+                    <img
+                      style="color: black"
+                      src="./assets/images/language.svg"
+                      class="filter-svg"
+                      alt=""
+                    />
+                  </figure>
+                </button>
+                <div
+                  class="dropdown-menu link-language"
+                  id="dropdown_language"
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <figure onclick="changeLanguage('ind')" class="mx-2">
+                    <img src="./assets/images/indo_flag.png" alt="" />
+                  </figure>
+                  <figure onclick="changeLanguage('eng')">
+                    <img
+                      src="./assets/images/usa_flag.png"
+                      class="mx-2"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="IndView">
+      <!-- section 1 -->
+      <!-- https://drive.google.com/file/d/1yI_1AFFpIkQy7wJ-RNQFyGPBe9rh9YTh/view?usp=share_link -->
+      <section class="mt-5 mb-3">
+        <div class="container" style="padding-top: 100px; overflow-x: hidden" data-aos="fade-up"
+        data-aos-delay="400">
+          <div
+            style="
+              border-radius: 20px;
+              background-image: url('/assets/images/1407.jpg');
+              background-blend-mode: lighten;
+              background-size: cover;
+              background-repeat: no-repeat;
+              opacity: 0.98;
+            "
+            class="ps-md-5 pe-md-5"
+          >
+            <div class="row d-flex justify-content-around" style="opacity: 1">
+              <div
+                class="col-md-5 text-white text-md mt-md-4"
+              >
+                <div class="mt-md-2 pt-md-2 padding-mobile text-dark">
+                  <h4 class="pb-3">One Stop Solution <i>E-Marketplace</i></h4>
+                  <h4 class="pb-3 lh-base bold">PT. BALI UNGGUL SEJAHTERA</h4>
+                </div>
+                <p class="text-dark text-justify">
+                  Kami PT. Bali Unggul Sejahtera yang merupakan perusahaan
+                  afiliasi dari Baliyoni Group, menyediakan ekosistem yang mampu
+                  memfasilitasi seluruh kebutuhan masyarakat dalam rangka
+                  pemulihan ekonomi di sektor pariwisata dan industri, melalui
+                  pemberdayaan UMKM/ IKM lokal dan pemanfaatan teknologi untuk
+                  transaksi online. Platform yang dinamai Balimall.id ini
+                  dibangun dan dikembangkan oleh putra-putri terbaik Bali,
+                  dengan konsep awal 'Dari, Oleh Dan Untuk Bali', sebagai salah satu
+                  solusi alternatif dalam hal transaksi online, solusi terhadap
+                  permasalahan UMKM/ IKM dan solusi untuk penanganan
+                  pariwisata demi percepatan pemulihan ekonomi yang
+                  Berdikari Secara Ekonomi, dan Berkepribadian dalam Kebudayaan
+                  Melalui Pembangunan Secara Terpola, Menyeluruh, Terencana,
+                  Terarah, dan Terintegrasi.
+                </p>
+              </div>
+              <div
+                class="col-md-6 pb-md-5 text-center"
+              >
+                <div class="mt-md-2 pt-md-5 padding-mobile text-dark">
+                  <img
+                    src="/assets/images/balimall-banner.jpg"
+                    class="w-100 mb-2"
+                    style="border-radius: 20px; margin-top: 6rem;"
+                    alt="banner balimall"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center ps-md-0 pe-md-0">
+              <a
+                href="./product.php"
+                target="_blank"
+                class="btn btn-danger btn-md rounded-pill p-2 ps-5 pe-5 mb-4"
+              >
+                Lihat Produk Kami!
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section 1 -->
+
+      <!-- section 4 -->
+      <section class="py-5">
+        <div class="pb-2" data-aos="fade-up" data-aos-delay="200">
+          <h1 class="text-center bold">Ekosistem PT. Bali Unggul Sejahtera</h1>
+          <br />
+          <div class="container">
+            <div
+              class="row"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+            <div class="row d-flex justify-content-center mb-4">
+              <img class="text-center w-75"  src="./assets/images/ekosistem.png" alt="Ekosistem Balimall">
+          </div>
+          <br>
+          <div class="row">
+              <ul class="text-justify">
+                  <li>E-marketplace <strong>Balimall.id</strong> merupakan entitas dari Platform Balimall yang bergerak
+                      dalam bidang digitalisasi UMKM, transaksi online, pemanfaatan sistem untuk
+                      pengadaan barang/ jasa.</li>
+                  <li><strong>BaliPOS</strong> merupakan entitas dari Platform Balimall yang bergerak dalam penanganan
+                      sistem (Point Of Sales) untuk Hotel/ Vila, Restoran, dan UMKM/ IKM termasuk
+                      laporan perpajakannya.</li>
+                  <li><strong>BaliRent</strong> merupakan entitas dari Platform Balimall yang bergerak dalam penanganan
+                      sistem sewa baik kendaraan, produk IT, maupun produk sewa lainnya.</li>
+                  <li><strong>BaliBills</strong> merupakan entitas dari Platform Balimall bekerjasama dengan Bank BPD
+                      Bali dalam penanganan sistem pembayaran atau biller untuk pajak dan retribusi
+                      daerah.</li>
+                  <li><strong>BaliModal</strong> merupakan entitas dari Platform Balimall bekerjasama dengan Bank BPD
+                      Bali dalam penanganan sistem permodalan bagi UMKM/ IKM dalam penyaluran
+                      Kredit Usaha Rakyat dan untuk permodalam dengan sistem project.</li>
+                  <li><strong>BaliTicket</strong> merupakan entitas dari Platform Balimall yang bergerak dalam
+                      penanganan sistem ticketing, seperti tiket pesawat, voucher akomodasi perjalanan
+                      wisata (kendaraan dan hotel), tiket masuk lokasi wisata, dan tiket faslitas wisata
+                      lainnya.</li>
+                  <li><strong>BaliGo</strong> merupakan entitas dari Platform Balimall yang bergerak dalam penanganan
+                      sistem pengangkutan, kurir dalam kota, ekspedisi, pengiriman makanan cepat saji,
+                      pengiriman paket onlineshop, dan jasa servis lainnya.</li>
+              </ul>
+          </div>
+             </div>
+              <div class="col-lg"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section 4 -->
+
+      <!-- section 4 -->
+      <section class="py-5 bg-gray">
+        <div class="pb-2" data-aos="fade-up" data-aos-delay="200">
+          <h1 class="text-center bold">Visi & Misi Kami</h1>
+          <br />
+          <div class="container">
+            <div
+              class="row text-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h4 class="bold text-danger">Visi</h4>
+              <br />
+              <h4>
+                <i class="">"E-marketplace Nomor 1 di Indonesia"</i>
+              </h4>
+            </div>
+            <br />
+            <div class="row" data-aos="fade-up" data-aos-delay="200">
+              <h4 class="bold text-danger text-center">Misi</h4>
+              <br />
+              <div class="col-lg-1"></div>
+              <div class="col-lg-8">
+                <ol class="bold text-justify">
+                  <li>
+                    <p>
+                      Mendorong Digitalisasi Pasar Usaha Mikro, Kecil, dan Menengah/ Industri Kecil dan Menengah.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Menghadirkan Kemudahan, Kenyamanan dan Keamanan dalam Berbelanja.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Memberikan pelayanan terbaik bagi konsumen dan merchant.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Mengembangkan konten kreatif dan inovatif untuk pengalaman berbelanja yang menarik.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Pemanfaatan teknologi informasi dan digitalisasi untuk penanganan sistem pariwisata pasca pandemi covid-19.
+                    </p>
+                  </li>
+                </ol>
+              </div>
+              <div class="col-lg"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section 4 -->
+
+      <!-- section 5 -->
+      <section class="py-5 bg-body">
+        <div class="text-center pb-5">
+          <h1 class="bold">Solusi Balimall.id</h1>
+        </div>
+
+        <div class="container-fluid mb-4 ps-md-5 pe-md-5">
+          <div class="container-fluid mb-4 ps-md-5 pe-md-5">
+            <div class="row mb-4 ps-md-5 pe-md-5 h-auto">
+              <div
+                class="col-md mb-3"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                <div class="card border-light shadow h-100">
+                  <div class="card-body">
+                    <div class="d-flex flex-row gap-2 align-items-center">
+                      <div>
+                        <i class="fa-solid fa-user text-danger fa-lg"></i>
+                      </div>
+                      <h4 class="bold text-danger mb-0">Konsumen</h4>
+                    </div>
+                    <br />
+                    <ul class="text-justify">
+                      <li>
+                        Pemenuhan kebutuhan konsumen dalam satu flatform antara
+                        lain : pencarian dan pemilihan produk dan penyedianya,
+                        distribusi produk, pembayaran yang aman dan cepat
+                        (online dan cashless), pencatatan transaksi (status dan
+                        riwayat), transaksi keuangan, tiket dan akomodasi
+                        wisata, dan penyewaan alat dan sarana pendukung.
+                      </li>
+                      <li>
+                        Fasilitas untuk pengadaan pemerintah sesuai dengan
+                        regulasi yang berlaku
+                      </li>
+                      <li>
+                        Mendapatkan produk dan jasa yang sudah terverifikasi
+                        baik untuk produk maupun penyedianya
+                      </li>
+                      <li>
+                        Proses transaksi yang aman secara keuangan maupun
+                        kesehatan dimasa pandemi.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-md mb-3"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                <div class="card border-light shadow h-100">
+                  <div class="card-body">
+                    <div class="d-flex flex-row gap-2 align-items-center">
+                      <div>
+                        <i class="fa-solid text-danger fa-store fa-lg"></i>
+                      </div>
+                      <h4 class="bold text-danger mb-0">
+                        UMKM/IKM Penyedia produk
+                      </h4>
+                    </div>
+                    <br />
+                    <ul class="text-justify">
+                      <li>
+                        Sistem yang terintegrasi untuk semua tahapan proses
+                        bisnis (supply chain, pemasaran, distribusi barang,
+                        pencatatan, pembukuan, transaksi keuangan, permodalan,
+                        akomodasi, dan penyewaan alat dan sarana pendukung
+                        bisnis)
+                      </li>
+                      <li>
+                        Sistem terintegrasi akan membantu dalam pengelolaan,
+                        pelaporan
+                      </li>
+                      <li>Sebagai media promosi di masa pandemi</li>
+                      <li>
+                        Mendapatkan peluang peningkatan kapasitas dalam
+                        pengelolaan dan peningkatan bisnis
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-md mb-3"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <div class="card border-light shadow h-100">
+                  <div class="card-body">
+                    <div class="d-flex flex-row gap-2 align-items-center">
+                      <div>
+                        <i
+                          class="fa-solid text-danger fa-building-columns fa-lg"
+                        ></i>
+                      </div>
+                      <h4 class="bold text-danger mb-0">
+                        Pemangku Kebijakan (Pemerintah/ Stake Holder)
+                      </h4>
+                    </div>
+                    <br />
+                    <ul class="text-justify">
+                      <li>Rekomendasi permodalan.</li>
+                      <li>
+                        Pemanfaatan sumberdaya daerah dalam pemberdayaan
+                        kearifan lokal.
+                      </li>
+                      <li>
+                        Peningkatan kesejahteraan masyarakat melalui
+                        pembukaan lapangan kerja dan pengalaman produksi
+                      </li>
+                      <li>
+                        Mendukung Pergub Nomor 99 Tahun 2018, tentang pemasaran
+                        dan pemanfaatan produk pertanian, perikanan, dan
+                        industri lokal Bali.
+                      </li>
+                      <li>
+                        Peningkatan retribusi daerah dengan pencatatan yang
+                        terstruktur
+                      </li>
+                      <li>
+                        Pengambilan kebijakan yang berbasis data (big data :
+                        trend, pemetaan UMKM/ IKM, Pemetaan komoditas unggulan
+                        , Retribusi dan pajak daerah)
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center my-5 py-5">
+            <h1 class="bold">Mengapa Kami?</h1>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3" data-aos="fade-right" data-aos-delay="300">
+              <div class="text-center">
+                <div class="w-50 mx-auto" style="height: 100px">
+                  <i class="fa-solid fa-handshake fa-4x text-danger"></i>
+                </div>
+                <div class="py-4">
+                  <span class="bold">Transaksi Mudah</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-right" data-aos-delay="100">
+              <div class="text-center">
+                <div class="w-50 mx-auto" style="height: 100px">
+                  <i class="fa-solid fa-user fa-4x text-danger"></i>
+                </div>
+                <div class="py-4">
+                  <span class="bold">Satu Akun Untuk Semua (SSO)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-right" data-aos-delay="200">
+              <div class="text-center">
+                <div class="w-50 mx-auto" style="height: 100px">
+                  <i class="fa-solid fa-check fa-4x text-danger"></i>
+                </div>
+                <div class="py-4">
+                  <span class="bold">Verifikasi Merchant dan Produk</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-right" data-aos-delay="200">
+              <div class="text-center">
+                <div class="w-50 mx-auto" style="height: 100px">
+                  <i class="fa-solid fa-file-invoice fa-4x text-danger"></i>
+                </div>
+                <div class="py-4">
+                  <span class="bold">Dokumen Digital dengan Sistem</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-3" data-aos="fade-left" data-aos-delay="300">
+              <div class="text-center">
+                <div class="w-50 mx-auto" style="height: 100px">
+                  <i class="fa-solid fa-users fa-4x text-danger"></i>
+                </div>
+                <div class="py-4">
+                  <span class="bold">Pemisahan Peran User Dalam Sistem Sangat Jelas</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-left" data-aos-delay="100">
+              <div class="text-center">
+                <div class="w-50 mx-auto" style="height: 100px">
+                  <i class="fa-regular fa-credit-card fa-4x text-danger"></i>
+                </div>
+                <div class="py-4">
+                  <span class="bold">Tersedia Metode Pembayaran Digital</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-left" data-aos-delay="200">
+              <div class="text-center">
+                <div class="w-50 mx-auto" style="height: 100px">
+                  <i class="fa-solid fa-money-check-dollar fa-4x text-danger"></i>
+                </div>
+                <div class="py-4">
+                  <span class="bold">Menerapkan PMK 58 dan Terintegrasi DJP</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-left" data-aos-delay="200">
+              <div class="text-center">
+                <div class="w-50 mx-auto" style="height: 100px">
+                  <i class="fa-solid fa-file-contract fa-4x text-danger"></i>
+                </div>
+                <div class="py-4">
+                  <span class="bold"><i>E-Reporting</i> LKPP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section 5 -->
+
+      <!-- section 6 -->
+      <section class="py-3">
+        <div class="container">
+          <div style="border-radius: 20px; background-image: url('/assets/images/1407.jpg');" class=" bg-light p-5 ">
+            <div class="text-center bold"> Anda mempunyai usaha UMKM?
+              Tidak ada tempat untuk memasarkan barang kerajinan anda?
+              Daftarkan usaha anda di www.Balimall.id sekarang juga!
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section 6 -->
+
+      <!-- footer -->
+      <footer class="bg-light text-dark py-5">
+        <div class="container mt-5 ps-md-5 pe-md-5">
+          <div class="row ps-md-5 pe-md-5">
+            <div class="col-md-4">
+              <div class="mb-3" style="height: 100px">
+                <div class="d-flex">
+                  <img
+                    width="150px"
+                    src="./assets/images/logo-balimall.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h5 class="pt-2 bold mb-0">
+                    PT. <span class="text-danger">B</span>ali
+                    <span class="text-danger">U</span>nggul
+                    <span class="text-danger">S</span>ejahtera
+                  </h5>
+                </div>
+              </div>
+              <div class="mt-2 w-100">
+                <a
+                  href="https://www.instagram.com/balimall.id/"
+                  class="text-decoration-none"
+                >
+                  <img src="./assets/images/logo-ig.png" alt="" />
+                </a>
+                <a
+                  href="https://www.facebook.com/Balimallid.Official/"
+                  class="text-decoration-none"
+                >
+                  <img src="./assets/images/logo-fb.png" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4 ps-md-5 mt-5 mt-md-0">
+              <h2>Menu</h2>
+              <ul class="list-unstyled list-group custom-footer">
+                <li class="py-2">
+                  <a href="" class="active">Tentang Kami</a>
+                </li>
+                <li class="py-2">
+                  <a href="product.php">Produk Kami</a>
+                </li>
+                <li class="py-2">
+                  <a href="partnership.php">Kerjasama</a>
+                </li>
+                <li class="py-2">
+                  <a href="contact.php">Kontak</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-4 mt-5 mt-md-0">
+              <h2 class="pb-3">Office Location</h2>
+              <div class="text-gray">
+                <p class="lh-lg pb-3">
+                  Jl. Moh. Yamin IX No. 19 Denpasar <br />
+                  Jl. Tukad Batanghari 1A Denpasar
+                </p>
+                <p>
+                  <img src="./assets/images/ic-phone.png" alt="" />
+                  <a
+                    class="text-decoration-none"
+                    href="https://wa.me/6281131164999"
+                  >
+                    +62 81131164999</a
+                  >
+                </p>
+                <span
+                  ><img src="./assets/images/ic-email.png" alt="" />
+                  <a
+                    class="text-decoration-none"
+                    href="mailto:info@balimall.id"
+                  >
+                    info@balimall.id</a
+                  ></span
+                >
+              </div>
+            </div>
+          </div>
+
+          <p class="text-center mt-5 text-gray">
+            © Copyright 2024 PT. Bali Unggul Sejahtera
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- https://drive.google.com/file/d/1yI_1AFFpIkQy7wJ-RNQFyGPBe9rh9YTh/view?usp=share_link -->
+
+    <div id="EngView">
+      <!-- section 1 -->
+      <section class="bg-light mt-5 mb-3">
+        <div class="container" style="padding-top: 100px; overflow-x: hidden">
+          <div class="row ps-md-5 pe-md-5">
+            <div
+              class="col-md-5 ps-md-5 text-black text-center text-md-start mt-md-4"
+              data-aos="fade-right"
+              data-aos-delay="400"
+            >
+              <div class="mt-md-5 pt-md-5 padding-mobile">
+                <h5 class="pb-3">collaborate with us at</h5>
+                <h3 class="pb-3 lh-base bold">PT ARISMA TEKNIKA MESARI</h3>
+                <!-- <p class="pb-3 lh-base"> <span class="bold">Ar<span class="text-danger">T</span>rade</span>  has become one of the platforms that provide curated and regulated trading robots.</p> -->
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-danger btn-lg p-3 ps-5 pe-5 mb-4"
+                >
+                  Learn More!
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-md-7 pb-md-5"
+              data-aos="fade-left"
+              data-aos-delay="400"
+            >
+              <img src="./assets/images/finance_hero.svg" class="w-75" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section 1 -->
+
+      <!-- section 2 -->
+      <section class="bg-dark2">
+        <div class="container">
+          <div class="row ps-md-4 pe-md-4 p-5 justify-content-center">
+            <!-- <div class="col-md-2 text-center mb-4">
+                    </div> -->
+            <div
+              class="col-md-8 text-center mb-2"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h5 class="bold text-white">Our Slogan</h5>
+              <h1 class="bold text-danger">
+                We Are Here To Grow Your Business
+              </h1>
+            </div>
+            <!-- <div class="col-md-2 text-center mb-4">
+                    </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- endsection 2 -->
+
+      <!-- section 4 -->
+      <section class="py-5 bg-gray">
+        <div class="text-center pb-2">
+          <h1 class="bold">Our Vision & Mission</h1>
+          <br />
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div
+                  class="card p-3"
+                  data-aos="fade-right"
+                  data-aos-delay="400"
+                >
+                  <div class="card-title">
+                    <h5 class="text-danger bold text-center">Vision</h5>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="bold text-medium pb-2">
+                      To become the best company in the fields of technology
+                      consulting services and financial consulting.
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card p-3" data-aos="fade-left" data-aos-delay="400">
+                  <div class="card-title">
+                    <h5 class="text-danger bold text-center">Mission</h5>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="bold text-medium pb-2">
+                      To educate the community in the financial world,
+                      especially in trading, and to understand financial
+                      management.
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section 4 -->
+
+      <!-- section 5 -->
+      <section class="py-5 bg-body">
+        <div class="text-center pb-5">
+          <h1 class="bold">Our Standard</h1>
+        </div>
+
+        <div class="container mb-4 ps-md-5 pe-md-5">
+          <div class="container mb-4 ps-md-5 pe-md-5">
+            <div class="row mb-4 ps-md-5 pe-md-5 h-auto">
+              <div
+                class="col-md-3 mb-3"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                <div class="card border-light shadow h-100">
+                  <div class="card-body">
+                    <div class="d-flex">
+                      <img
+                        src="./assets/images/motto-1.png"
+                        class="me-2"
+                        alt=""
+                      />
+                      <h4 class="card-title bold text-danger">Secure</h4>
+                    </div>
+                    <br />
+                    <p class="text-justify">
+                      We prioritize the security of your funds by providing
+                      insurance coverage of up to 50%, along with very strict
+                      risk management
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-3 mb-3"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                <div class="card border-light shadow h-100">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="./assets/images/motto-2.png"
+                        width="30px"
+                        class="me-2"
+                        alt=""
+                      />
+                      <h4 class="card-title bold text-danger">Easy</h4>
+                    </div>
+                    <br />
+                    <p class="text-justify">
+                      To create a good product, it must be easy and accessible
+                      to everyone. Therefore, we use the best PAMM (Percentage
+                      Allocation Management Module) system in the market. We
+                      trade using EA (Expert Advisor), which is controlled by
+                      professional traders.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-3 mb-3"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <div class="card border-light shadow h-100">
+                  <div class="card-body">
+                    <div class="d-flex">
+                      <img
+                        src="./assets/images/motto-3.png"
+                        width="20px"
+                        class="me-2"
+                        alt=""
+                      />
+                      <h4 class="card-title bold text-danger">Fast</h4>
+                    </div>
+                    <br />
+                    <p class="text-justify">
+                      Quickly add and withdraw funds without limits, with an
+                      estimated ROI within 6 months.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-md-3 mb-3"
+                data-aos="fade-right"
+                data-aos-delay="400"
+              >
+                <div class="card border-light shadow h-100">
+                  <div class="card-body">
+                    <div class="d-flex">
+                      <img
+                        src="./assets/images/motto-4.png"
+                        width="30px"
+                        class="me-2"
+                        alt=""
+                      />
+                      <h4 class="card-title bold text-danger">Profitable</h4>
+                    </div>
+                    <br />
+                    <p class="text-justify">
+                      Potential monthly profit reaches up to 15%.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center my-5 py-5">
+            <h1 class="bold">Why Choose Us?</h1>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4" data-aos="fade-right" data-aos-delay="300">
+              <div class="text-center">
+                <div class="w-50 mx-auto" style="height: 100px">
+                  <img src="./assets/images/group-3.png" alt="" />
+                </div>
+                <div class="py-4">
+                  <span class="bold">Regulated</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-right" data-aos-delay="100">
+              <div class="text-center">
+                <div class="w-50 mx-auto" style="height: 100px">
+                  <img src="./assets/images/group-1.png" alt="" />
+                </div>
+                <div class="py-4">
+                  <span class="bold">Curated</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-right" data-aos-delay="200">
+              <div class="text-center">
+                <div class="w-50 mx-auto" style="height: 100px">
+                  <img src="./assets/images/group-2.png" alt="" />
+                </div>
+                <div class="py-4">
+                  <span class="bold">Easy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section 5 -->
+
+      <!-- section 6 -->
+      <section
+        class="bg-dark2 text-center"
+        style="background-image: url('./assets/images/Banner.png')"
+      >
+        <div class="container py-5">
+          <div class="my-5 text-white">
+            <h3 class="text-white bold">
+              "Working <span class="text-danger"> isn’t a</span> hard
+              <span class="text-danger">thing to do if you’re</span> loving what
+              you’re doing,
+              <span class="text-danger"
+                >and you get the point from there find a purpose before loving
+                it.</span
+              >"
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- end section 6 -->
+
+      <!-- footer -->
+      <footer class="bg-light text-dark py-5">
+        <div class="container mt-5 ps-md-5 pe-md-5">
+          <div class="row ps-md-5 pe-md-5">
+            <div class="col-md-4">
+              <div class="mb-3" style="height: 100px">
+                <div class="d-flex">
+                  <img width="150px" src="./assets/images/ATM.png" alt="" />
+                  <!-- <div class="d-flex flex-column">
+                                    <p class="pt-2 bold mb-0">Ar<span class="text-danger">T</span>rade</p>
+                                    <small class="text-center text-danger bold">Smart Solution</small>
+                                </div> -->
+                </div>
+              </div>
+              <div class="mt-2 w-100">
+                <a href="" class="text-decoration-none">
+                  <img src="./assets/images/logo-ig.png" alt="" />
+                </a>
+                <a href="" class="text-decoration-none">
+                  <img src="./assets/images/logo-fb.png" alt="" />
+                </a>
+                <a href="" class="text-decoration-none">
+                  <img src="./assets/images/logo-tele.png" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4 ps-md-5 mt-5 mt-md-0">
+              <h2>Menu</h2>
+              <ul class="list-unstyled list-group custom-footer">
+                <li class="py-2">
+                  <a href="" class="active">Tentang Kami</a>
+                </li>
+                <li class="py-2">
+                  <a href="product.php">Produk Kami</a>
+                </li>
+                <li class="py-2">
+                  <a href="partnership.php">Kerjasama</a>
+                </li>
+                <li class="py-2">
+                  <a href="contact.php">Kontak</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-4 mt-5 mt-md-0">
+              <h2 class="pb-3">Office Location</h2>
+              <div class="text-gray">
+                <p class="lh-lg pb-3">
+                  Soho Podomorocity lt.16 Central Park Area Jl. S Parman-Jakarta
+                  Barat Indonesia
+                </p>
+                <p>
+                  <img src="./assets/images/ic-phone.png" alt="" />
+                  +6281131186888
+                </p>
+                <span
+                  ><img src="./assets/images/ic-email.png" alt="" />
+                  support@artrade.id</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <p class="text-center mt-5 text-gray">
+            © Copyright 2024 PT. Arisma Teknika Mesari
+          </p>
+        </div>
+      </footer>
+
+      <!-- modal -->
+      <div
+        class="modal fade"
+        id="modal-booking-eng"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Form Reservation
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="input-group input-group-lg mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-lg"
+                  >Email</span
+                >
+                <input type="email" name="email" class="form-control" />
+              </div>
+              <div class="input-group input-group-lg mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-lg"
+                  >Date</span
+                >
+                <input
+                  type="text"
+                  name="tanggal"
+                  class="form-control datepicker"
+                />
+              </div>
+              <div class="input-group input-group-lg mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-lg"
+                  >Name</span
+                >
+                <input type="text" name="nama" class="form-control" />
+              </div>
+              <div class="input-group input-group-lg mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-lg"
+                  >Jobs</span
+                >
+                <input type="text" name="pekerjaan" class="form-control" />
+              </div>
+              <div class="input-group input-group-lg mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-lg"
+                  >Age</span
+                >
+                <input type="number" name="umur" class="form-control" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary btn-lg"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <a
+                href="https://wa.me/6281131186888"
+                id="booking"
+                type="button"
+                class="btn btn-danger btn-lg"
+                >Send Request</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
+
+    <!-- end footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"
+      integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      var dataLanguage = localStorage.getItem("Language");
+      var checkdropdown = false;
+      if (dataLanguage === "ind") {
+        document.getElementById("IndView").style.display = "block";
+        document.getElementById("EngView").style.display = "none";
+      } else if (dataLanguage === "eng") {
+        document.getElementById("IndView").style.display = "none";
+        document.getElementById("EngView").style.display = "block";
+      } else {
+        localStorage.setItem("Language", "ind");
+        document.getElementById("IndView").style.display = "block";
+        document.getElementById("EngView").style.display = "none";
+      }
+      function changedropdown() {
+        if (!checkdropdown) {
+          checkdropdown = true;
+          document.getElementById("button_language").classList.add("show");
+          document.getElementById("dropdown_language").classList.add("show");
+        } else {
+          checkdropdown = false;
+          document.getElementById("button_language").classList.remove("show");
+          document.getElementById("dropdown_language").classList.remove("show");
+        }
+      }
+      function changeLanguage(data) {
+        localStorage.setItem("Language", data);
+        if (data === "ind") {
+          document.getElementById("IndView").style.display = "block";
+          document.getElementById("EngView").style.display = "none";
+          checkdropdown = false;
+          document.getElementById("button_language").classList.remove("show");
+          document.getElementById("dropdown_language").classList.remove("show");
+        } else if (data === "eng") {
+          document.getElementById("IndView").style.display = "none";
+          document.getElementById("EngView").style.display = "block";
+          checkdropdown = false;
+          document.getElementById("button_language").classList.remove("show");
+          document.getElementById("dropdown_language").classList.remove("show");
+        }
+      }
+      $(document).ready(function () {
+        AOS.init();
+        let reseveDate = new Date();
+        reseveDate.setDate(reseveDate.getDate() + 3);
+        $(".datepicker").datepicker("setDate", reseveDate);
+
+        handleWhatsappMessage();
+      });
+
+      handleWhatsappMessage = function () {
+        $("#booking").click(function (e) {
+          e.preventDefault();
+          let url = $(this).attr("href");
+          const email = $('[name="email"]').val();
+          const tanggal = $('[name="tanggal"').val();
+          const nama = $('[name="nama"').val();
+          const pekerjaan = $('[name="pekerjaan"').val();
+          const umur = $('[name="umur"').val();
+
+          if (
+            email == "" ||
+            tanggal == "" ||
+            nama == "" ||
+            pekerjaan == "" ||
+            umur == ""
+          ) {
+            alert("Pastikan seluruh kolom terisi dengan benar");
+            return false;
+          }
+
+          url = `${url}?text=Saya ingin menjadwalkan konsultasi%0D%0ATanggal: ${new Date(
+            tanggal
+          ).toLocaleDateString()} %0D%0ANama: ${nama} %0D%0AEmail: ${email} %0D%0APekerjaan: ${pekerjaan} %0D%0AUmur: ${umur}`;
+          window.open(url, (target = "_blank"));
+        });
+      };
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

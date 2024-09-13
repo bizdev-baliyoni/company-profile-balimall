@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/logo.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    
+    <!-- Bootstrap datepicker CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script
+    src="https://kit.fontawesome.com/33c0f72281.js"
+    crossorigin="anonymous"
+  ></script>
+
+    <title>Kerjasama</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+        <div class="container ps-md-5 pe-md-5">
+          <a class="navbar-brand ps-md-5" href="index.php">
+            <div class="d-flex">
+              <img src="./assets/images/logo-balimall.png" width="150px" alt="" />
+              <!-- <div class="d-flex flex-column">
+                          <p class="pt-2 bold mb-0">Ar<span class="text-danger">T</span>rade</p>
+                          <small class="text-danger bold" style="font-size: 14px;">Smart Solution</small>
+                      </div> -->
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse pe-md-5 align-items-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pt-4 pb-4">
+              <li class="nav-item pe-md-4">
+                <a class="nav-link" href="index.php">Tentang Kami</a>
+              </li>
+              <li class="nav-item pe-md-4">
+                <a class="nav-link" href="product.php">Produk Kami</a>
+              </li>
+              <li class="nav-item pe-md-4">
+                <a class="nav-link active" aria-current="page" href="#">Kerjasama</a>
+              </li>
+              <li class="nav-item pe-md-4">
+                <a class="nav-link" href="contact.php">Kontak</a>
+              </li>
+              <!-- <li class="nav-item pe-md-4 px-2">
+                          <div class="dropdown" id="button_language">
+                              <button class="btn dropdown-toggle language-toggle" onclick="changedropdown()" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <figure>
+                                  <img src="./assets/images/language.svg" class="filter-svg" alt="">
+                                </figure>
+                              </button>
+                              <div class="dropdown-menu link-language" id="dropdown_language" aria-labelledby="dropdownMenuButton">
+                                  <figure onclick="changeLanguage('ind')" class="mx-2">
+                                      <img src="./assets/images/indo_flag.png" alt="">
+                                  </figure>
+                                  <figure onclick="changeLanguage('eng')">
+                                      <img src="./assets/images/usa_flag.png" class="mx-2" alt="">
+                                  </figure>
+                              </div>
+                            </div>
+                      </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+
+
+   <div id="IndView">
+     <!-- content -->
+    <!-- title -->
+    <section class="bg-dark text-light py-0">
+        <div class="container ps-md-5 pe-md-5 pt-5" >
+            <div class="pt-5 ps-md-5 pe-md-5">
+                <h1 class="bold pt-md-5" style="font-size: 50pt;">Kerjasama Kami</h1>
+                <br />
+            </div>
+        </div>
+    </section>
+    <!-- end title -->
+
+    <!-- visi misi -->
+    <!-- sejarah -->
+    <section>
+        <div class="container p-5" style="overflow-x: hidden">
+            <!-- <h1 class="bold text-center mb-5">Our Services</h1> -->
+            <div class="row mb-4 ps-md-5 pe-md-5 d-flex justify-content-around text-center" data-aos="fade-right" data-aos-delay="100">
+                <div class="col-md-6">
+                    <i class="fa-regular fa-credit-card fa-5x w-25 text-danger rounded-3 pb-3"></i>
+                    <h4 class="text-danger bold">Kerjasama Pembayaran.</h4>
+                    <p class="text-justify">
+                        <strong>Balimall.id</strong> bekerjasama dengan Bank BPD Bali untuk penanganan pembayaran online melalui metode transfer, QRIS Statis, QRIS Dinamis, <i>Virtual Account</i>, dan Kartu Kredit Indonesia  dengan proses integrasi langsung <i>(host to host)</i>. <strong>Balimall.id</strong> juga bekerjasama dengan <i>payment gateway</i> DOKU untuk menangani pembayaran dengan kartu kredit dan bekerjasama dengan Bank BNI untuk menangani pembayaran dengan <i>Virtual Account Static</i>.
+                    </p>
+                    
+                </div>
+                <div class="col-md-6">
+                    <i class="fa-solid fa-truck fa-5x w-25 text-danger rounded-3 pb-3"></i>
+                    <h4 class="text-danger bold">Kerjasama Pengiriman.</h4>
+                    <p class="text-justify">
+                        <strong>Balimall.id</strong> bekerjasama dengan raja ongkir dalam hal estimasi biaya dan layanan pengiriman dengan proses integrase langsung. <strong>Balimall.id</strong> juga bekerjasama dengan kurir lokal Detrans untuk pengiriman antar daerah lokal Bali.
+                </div>
+            </div>
+            <br>
+            <div class="row mb-4 ps-md-5 pe-md-5 d-flex justify-content-around text-center" data-aos="fade-right" data-aos-delay="100">
+                <div class="col-md-6">
+                    <i class="fa-solid fa-building-columns fa-5x w-25 text-danger rounded-3 pb-3"></i>
+                    <h4 class="text-danger bold">Kerjasama Pengadaan Pemerintah.</h4>
+                    <p class="text-justify">
+                        <strong>Balimall.id</strong> bekerjasama dengan Lembaga Kebijakan Pengadaan Barang/ Jasa Pemerintah dengan menjadi salah satu e-merketpalce mitra Bela Pengadaan dan Toko Daring yang siap dengan mekanisme pengadaan pemerintah dengan sistem pasca bayar. <strong>Balimall.id</strong> juga bekerjasama dengan Pemerintah Provinsi dan Pemerintah Daerah untuk mensosialisasikan pemanfaatan e-marketplace untuk pengadaan Pemerintah.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <i class="fa-solid fa-building fa-5x w-25 text-danger rounded-3 pb-3"></i>
+                    <h4 class="text-danger bold">Kerjasama Pemberdayaan UMKM/ IKM.</h4>
+                    <p class="text-justify">
+                        <strong>balimall.id</strong> bekerjasama dengan beberapa fasilitator dan instasi Pemerintah yang membina UMKM/ IKM seperti Dinas Perindustrian dan Perdagangan, Dinas Koperasi, Dewan Kerajinan Nasional Daerah, Bank BPD Bali, Bank Indonesia, dan fasilitastor lainnya dalam hal pemberdayaan dan digitalisasi UMKM/ IKM, termasuk melaksanakan sosialisasi dan edukasi terhadap UMKM/ IKM dalam pemanfaatan e-marketplace untuk mendukung pengadaan Pemerintah.
+                    </p>
+                </div>
+            </div>
+
+           
+
+        </div>
+    </section>
+    <!-- end sejarah -->
+    <!-- visi misi -->
+
+    <!-- <section class="bg-dark2 text-center" style="background-image: url('./assets/images/Banner.png');">
+        <div class="container py-5">
+            <div class="my-5">
+                <h3 class="text-white bold">"Working <span class="text-danger"> isn’t a</span> hard <span class="text-danger">thing to do if you’re</span> loving what you’re doing, <span class="text-danger">and you get the point from there find a purpose before loving it.</span>"</h3>
+            </div>
+        </div>
+    </section> -->
+    <!-- end content -->
+    <!-- modal -->
+    <div class="modal fade" id="modal-booking" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Form Reservasi</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Email</span>
+                    <input type="email" name="email" class="form-control">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Tanggal</span>
+                    <input type="text" name="tanggal" class="form-control datepicker">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Nama</span>
+                    <input type="text" name="nama" class="form-control">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Pekerjaan</span>
+                    <input type="text" name="pekerjaan" class="form-control">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Umur</span>
+                    <input type="number" name="umur" class="form-control">
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Tutup</button>
+              <a href="https://wa.me/6281131186888" id="booking" type="button" class="btn btn-danger btn-lg">Kirim Permintaan</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- end modal -->
+    
+   </div>
+   
+   <div id="EngView">
+     <!-- content -->
+    <!-- title -->
+    <section class="bg-dark text-light py-5">
+        <div class="container ps-md-5 pe-md-5 pt-5" >
+            <div class="pt-5 ps-md-5 pe-md-5">
+                <h1 class="bold pt-md-5" style="font-size: 50pt;">Our Services</h1>
+                <hr style="border: 5px solid #ED1C24; width: 200px">
+            </div>
+        </div>
+    </section>
+    <!-- end title -->
+
+    <!-- visi misi -->
+    <section>
+        <div class="container p-5" style="overflow-x: hidden">
+            <!-- <h1 class="bold text-center mb-5">Our Services</h1> -->
+            <div class="row mb-4 ps-md-5 pe-md-5 d-flex justify-content-around text-center" data-aos="fade-right" data-aos-delay="100">
+                <div class="col-md-6">
+                    <img src="https://smartintrade.co.id/_nuxt/smartsignal.GFoqi7SP.png" alt="" class="w-25 rounded-3 pb-2">
+                    <h4 class="text-danger bold">Arisma Assistant</h4>
+                    <p class="text-justify">
+                        Arisma Assistant is Arisma Teknika Mesari will provide advice to Clients to buy, sell or hold positions in financial assets based on market analysis. Our professional experts provide this analysis using automated algorithms to analyze market conditions and provide financial recommendations.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://smartintrade.co.id/_nuxt/smartrade.BSPjS8Gp.png" alt="" class="w-25 rounded-3 pb-2">
+                    <h4 class="text-danger bold">Smart Trade</h4>
+                    <p class="text-justify">
+                        Smart Trade is a transaction convenience offered by Arisma Teknika Mesari exclusively to clients. By connecting their accounts, clients can automatically replicate the trading positions taken by our skilled and professional traders (Skilled Advisors).
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row mb-4 ps-md-5 pe-md-5 d-flex justify-content-around text-center" data-aos="fade-right" data-aos-delay="100">
+                <div class="col-md-6">
+                    <img src="https://smartintrade.co.id/_nuxt/tradingsimulation.c0ORQc-J.png" alt="" class="w-25 rounded-3 pb-2">
+                    <h4 class="text-danger bold">Trading Simulation</h4>
+                    <p class="text-justify">
+                        The trading platform allows Arisma Teknika Mesari Clients to conduct free trading simulations in addition to learning the basics of futures trading theory.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://smartintrade.co.id/_nuxt/tradingcoaching.DrpRaAN2.png" alt="" class="w-25 rounded-3 pb-2">
+                    <h4 class="text-danger bold">Trading Coaching and Mentoring</h4>
+                    <p class="text-justify">
+                        Through Expert Advisors, Arisma Teknika Mesari offers ongoing services with the aim to assist Clients in making decisions regarding transactions to be carried out by providing guidance and additional information deemed necessary to be communicated. 
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    <!-- visi misi -->
+
+    <section class="bg-dark2 text-center" style="background-image: url('./assets/images/Banner.png');">
+        <div class="container py-5">
+            <div class="my-5">
+                <h3 class="text-white bold">"Working <span class="text-danger"> isn’t a</span> hard <span class="text-danger">thing to do if you’re</span> loving what you’re doing, <span class="text-danger">and you get the point from there find a purpose before loving it.</span>"</h3>
+            </div>
+        </div>
+    </section>
+    <!-- end content -->
+    <!-- modal -->
+    <div class="modal fade" id="modal-booking-eng" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Form Reservation</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Email</span>
+                    <input type="email" name="email" class="form-control">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Date</span>
+                    <input type="text" name="tanggal" class="form-control datepicker">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Name</span>
+                    <input type="text" name="nama" class="form-control">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Jobs</span>
+                    <input type="text" name="pekerjaan" class="form-control">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Age</span>
+                    <input type="number" name="umur" class="form-control">
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Close</button>
+              <a href="https://wa.me/6281131186888" id="booking" type="button" class="btn btn-danger btn-lg">Send Request</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- end modal -->
+  </div>
+</section>
+
+    
+
+    <!-- footer -->
+    <footer class="bg-light text-dark py-5">
+        <div class="container mt-5 ps-md-5 pe-md-5">
+          <div class="row ps-md-5 pe-md-5">
+            <div class="col-md-4">
+              <div class="mb-3" style="height: 100px">
+                <div class="d-flex">
+                  <img
+                    width="150px"
+                    src="./assets/images/logo-balimall.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h5 class="pt-2 bold mb-0">
+                    PT. <span class="text-danger">B</span>ali <span class="text-danger">U</span>nggul <span class="text-danger">S</span>ejahtera
+                  </h5>
+                </div>
+              </div>
+              <div class="mt-2 w-100">
+                <a
+                  href="https://www.instagram.com/balimall.id/"
+                  class="text-decoration-none"
+                >
+                  <img src="./assets/images/logo-ig.png" alt="" />
+                </a>
+                <a
+                  href="https://www.facebook.com/Balimallid.Official/"
+                  class="text-decoration-none"
+                >
+                  <img src="./assets/images/logo-fb.png" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4 ps-md-5 mt-5 mt-md-0">
+              <h2>Menu</h2>
+              <ul class="list-unstyled list-group custom-footer">
+                <li class="py-2">
+                  <a href="index.php">Tentang Kami</a>
+                </li>
+                <li class="py-2">
+                  <a href="product.php">Produk Kami</a>
+                </li>
+                <li class="py-2">
+                  <a href="partnership.php"  class="active">Kerjasama</a>
+                </li>
+                <li class="py-2">
+                  <a href="contact.php">Kontak</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-4 mt-5 mt-md-0">
+              <h2 class="pb-3">Office Location</h2>
+              <div class="text-gray">
+                <p class="lh-lg pb-3">
+                  Jl. Moh. Yamin IX No. 19 Denpasar <br />
+                  Jl. Tukad Batanghari 1A Denpasar
+                </p>
+                <p>
+                  <img src="./assets/images/ic-phone.png" alt="" />
+                  <a
+                    class="text-decoration-none"
+                    href="https://wa.me/6281131164999"
+                  >
+                    +62 81131164999</a
+                  >
+                </p>
+                <span
+                  ><img src="./assets/images/ic-email.png" alt="" />
+                  <a
+                    class="text-decoration-none"
+                    href="mailto:info@balimall.id"
+                  >
+                    info@balimall.id</a
+                  ></span
+                >
+              </div>
+            </div>
+          </div>
+
+          <p class="text-center mt-5 text-gray">
+            © Copyright 2024 PT. Bali Unggul Sejahtera
+          </p>
+        </div>
+      </footer>
+    <!-- end footer -->
+
+</body>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    var dataLanguage = localStorage.getItem('Language')
+        var checkdropdown = false
+        if(dataLanguage === 'ind'){
+            document.getElementById('IndView').style.display = 'block'
+            document.getElementById('EngView').style.display = 'none'
+        }else if(dataLanguage === 'eng'){
+            document.getElementById('IndView').style.display = 'none'
+            document.getElementById('EngView').style.display = 'block'
+        }else if(dataLanguage == ''){
+            localStorage.setItem('Language','ind')
+            document.getElementById('IndView').style.display = 'block'
+            document.getElementById('EngView').style.display = 'none'
+        }else{
+            document.getElementById('IndView').style.display = 'block'
+            document.getElementById('EngView').style.display = 'none'
+        }
+        function changedropdown(){
+            if(!checkdropdown){
+                checkdropdown = true
+                document.getElementById('button_language').classList.add('show')
+                document.getElementById('dropdown_language').classList.add('show')
+            }else{
+                checkdropdown = false
+                document.getElementById('button_language').classList.remove('show')
+                document.getElementById('dropdown_language').classList.remove('show')
+            }
+        }
+        function changeLanguage(data){
+            localStorage.setItem('Language',data)
+            if(data === 'ind'){
+                document.getElementById('IndView').style.display = 'block'
+                document.getElementById('EngView').style.display = 'none'
+                checkdropdown = false
+                document.getElementById('button_language').classList.remove('show')
+                document.getElementById('dropdown_language').classList.remove('show')
+            }else if(data === 'eng'){
+                document.getElementById('IndView').style.display = 'none'
+                document.getElementById('EngView').style.display = 'block'
+                checkdropdown = false
+                document.getElementById('button_language').classList.remove('show')
+                document.getElementById('dropdown_language').classList.remove('show')
+            }
+        }
+        AOS.init();
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            AOS.init();
+            let reseveDate = new Date()
+            reseveDate.setDate(reseveDate.getDate()+3)
+            $('.datepicker').datepicker("setDate", reseveDate);
+
+            handleWhatsappMessage()
+        })
+
+        handleWhatsappMessage = function(){
+            
+            $('#booking').click(function(e){
+                e.preventDefault()
+                let url = $(this).attr('href')
+                const email = $('[name="email"]').val()
+                const tanggal = $('[name="tanggal"').val()
+                const nama = $('[name="nama"').val()
+                const pekerjaan = $('[name="pekerjaan"').val()
+                const umur = $('[name="umur"').val()
+
+                if(email == '' || tanggal == '' || nama== '' || pekerjaan == '' || umur == ''){
+                    alert('Pastikan seluruh kolom terisi dengan benar')
+                    return false
+                }
+
+                url = `${url}?text=Saya ingin menjadwalkan konsultasi%0D%0ATanggal: ${new Date(tanggal).toLocaleDateString()} %0D%0ANama: ${nama} %0D%0AEmail: ${email} %0D%0APekerjaan: ${pekerjaan} %0D%0AUmur: ${umur}`
+                
+                window.open(url, target='_blank')
+            })
+        }
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
