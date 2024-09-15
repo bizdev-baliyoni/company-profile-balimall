@@ -16,44 +16,57 @@
       crossorigin="anonymous"
     ></script>
     <title>Galeri</title>
+    <style>
+      
+      .rounded {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        transition: all 0.2s ease;
+      }
+
+      .rounded:hover {
+        transform: scale(1.1);
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
-        <div class="container ps-md-5 pe-md-5">
-            
-            <a class="navbar-brand ps-md-5" href="index.html">
-                <div class="d-flex">
-                    <img src="./assets/images/logo-balimall.png" width="150px" alt="">
-                </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse pe-md-5 align-items-center" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pt-4 pb-4">
-                    <li class="nav-item pe-md-4">
-                        <a class="nav-link" aria-current="page" href="index.html">Tentang Kami</a>
-                    </li>
-                    <li class="nav-item pe-md-4">
-                        <a class="nav-link" href="product.html">Produk Kami</a>
-                    </li>
-                    <li class="nav-item pe-md-4">
-                        <a class="nav-link" href="partnership.html">Kerjasama</a>
-                    </li>
-                    <li class="nav-item pe-md-4">
-                        <a class="nav-link" href="binaan.html">Binaan UMKM</a>
-                    </li>
-                    <li class="nav-item pe-md-4">
-                        <a class="nav-link active" href="#">Galeri</a>
-                    </li>
-                    <li class="nav-item pe-md-4">
-                        <a class="nav-link" href="contact.html">Kontak</a>
-                    </li>
-                </ul>
-            </div>
-            
-        </div>
-    </nav>
+      <div class="container ps-md-5 pe-md-5">
+          
+          <a class="navbar-brand ps-md-5" href="index.html">
+              <div class="d-flex">
+                  <img src="./assets/images/logo-balimall.png" width="150px" alt="">
+              </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse pe-md-5 align-items-center" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pt-4 pb-4">
+                  <li class="nav-item pe-md-4">
+                      <a class="nav-link" aria-current="page" href="index.html">Tentang Kami</a>
+                  </li>
+                  <li class="nav-item pe-md-4">
+                      <a class="nav-link" href="product.html">Produk Kami</a>
+                  </li>
+                  <li class="nav-item pe-md-4">
+                      <a class="nav-link" href="partnership.html">Kerjasama</a>
+                  </li>
+                  <li class="nav-item pe-md-4">
+                      <a class="nav-link active" href="binaan.html">Hasil Binaan</a>
+                  </li>
+                  <li class="nav-item pe-md-4">
+                      <a class="nav-link" href="gallery.html">Galeri</a>
+                  </li>
+                  <li class="nav-item pe-md-4">
+                      <a class="nav-link" href="contact.html">Kontak</a>
+                  </li>
+              </ul>
+          </div>
+          
+      </div>
+  </nav>
     <div>
     <!-- title -->
       <section class="bg-dark text-light py-0">
@@ -72,109 +85,128 @@
           data-aos="fade-up"
           data-aos-delay="200"
         >
-            <div class="row gap-2">
-                <div class="col card p-2">
-                  <figure class="figure">
-                    <img src="/assets/images/galeri/balimall-goes-campus-2020.JPG" class="figure-img img-fluid rounded" alt="balimall-goes-campus-2020">
-                    <figcaption class="figure-caption text-center">Balimall Goes Campus 2020</figcaption>
-                  </figure>
-                </div>
-                <div class="col card p-2">
-                  <figure class="figure">
-                    <img src="/assets/images/galeri/pameran-dekranasda-level-21-2020.JPG" class="figure-img img-fluid rounded" alt="pameran-dekranasda-level-21-2020">
-                    <figcaption class="figure-caption text-center">Pameran Dekranasda di Level 21 tahun 2020</figcaption>
-                  </figure>
-                </div>
-                <div class="col card p-2">
-                  <figure class="figure">
-                    <img src="/assets/images/galeri/sosialisasi-balimall-disperindag-gianyar-2020.JPG" class="figure-img img-fluid cover rounded" alt="sosialisasi-balimall-disperindag-gianyar-2020">
-                    <figcaption class="figure-caption text-center">Sosialisasi Balimall di Disperindag Gianyar tahun 2020</figcaption>
-                  </figure>
-                </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/balimall-goes-to-japan-2023.jpg" class=" rounded" alt="balimall-goes-to-japan-2023">
             </div>
-            <br>
-            <div class="row gap-2">
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/peluncuran-gerakan-bangga-buatan-indonesia-2021.JPG" class="figure-img img-fluid cover rounded" alt="peluncuran-gerakan-bangga-buatan-indonesia-2021">
-                  <figcaption class="figure-caption text-center">Peluncuran Gerakan Nasional Bangga Buatan Indonesia</figcaption>
-                </figure>
-              </div>
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/ikm-bali-goes-to-mall-2021.JPG" class="figure-img img-fluid cover rounded" alt="ikm-bali-goes-to-mall-2021">
-                  <figcaption class="figure-caption text-center">IKM Bali goes to Mall tahun 2021</figcaption>
-                </figure>
-              </div>
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/kedatangan-menko-marves.JPG" class="figure-img img-fluid cover rounded" alt="kedatangan-menko-marves">
-                  <figcaption class="figure-caption text-center">Kedatangan Menko Maritim dan Investasi tahun 2020</figcaption>
-                </figure>
-              </div>
+            <div class="card-body">
+              <p class=" text-center">Balimall Goes to Japan 2023</p>
             </div>
-            <br>
-            <div class="row gap-2">
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/bali-digifest-2022.JPG" class="figure-img img-fluid cover rounded" alt="bali-digifest-2022">
-                  <figcaption class="figure-caption text-center">Bali Digifest 2022</figcaption>
-                </figure>
-              </div>
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/bali-showcase-business-matching-2022.jpg" class="figure-img img-fluid cover rounded" alt="bali-showcase-business-matching-2022">
-                  <figcaption class="figure-caption text-center">Bali Showcase & Business Matching 2022</figcaption>
-                </figure>
-              </div>
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/fashion-show-2022.jpg" class="figure-img img-fluid cover rounded" alt="fashion-show-2022">
-                  <figcaption class="figure-caption text-center">Bali Fashion Show 2022</figcaption>
-                </figure>
-              </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/edukasi-pelatihan-ekatalog-dan-bela-pengadaan-2023.JPG" class=" rounded" alt="edukasi-pelatihan-ekatalog-dan-bela-pengadaan-2023">
             </div>
-            <br>
-            <div class="row gap-2">
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/balimall-goes-to-japan-2023.jpg" class="figure-img img-fluid cover rounded" alt="balimall-goes-to-japan-2023">
-                  <figcaption class="figure-caption text-center">Balimall Goes to Japan 2023</figcaption>
-                </figure>
-              </div>
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/edukasi-pelatihan-ekatalog-dan-bela-pengadaan-2023.JPG" class="figure-img img-fluid cover rounded" alt="edukasi-pelatihan-ekatalog-dan-bela-pengadaan-2023">
-                  <figcaption class="figure-caption text-center">Edukasi Pelatihan <i>E-Katalog</i> dan Bela Pengadaan tahun 2023</figcaption>
-                </figure>
-              </div>
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/sosialisasi-penggunaan-tokodaring-melalui-platform-balimall-2023.jpg" class="figure-img img-fluid cover rounded" alt="sosialisasi-penggunaan-tokodaring-melalui-platform-balimall-2023">
-                  <figcaption class="figure-caption text-center">Sosialisasi Penggunaan Tokodaring melalui platform Balimall</figcaption>
-                </figure>
-              </div>
+            <div class="card-body">
+              <p class=" text-center">Edukasi pelatihan <i>E-Katalog</i> dan Bela Pengadaan tahun 2023</p>
             </div>
-            <!-- <div class="row gap-2">
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/balimall-goes-to-japan-2023.jpg" class="figure-img img-fluid cover rounded" alt="balimall-goes-to-japan-2023">
-                  <figcaption class="figure-caption text-center">Balimall Goes to Japan 2023</figcaption>
-                </figure>
-              </div>
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/edukasi-pelatihan-ekatalog-dan-bela-pengadaan-2023.JPG" class="figure-img img-fluid cover rounded" alt="edukasi-pelatihan-ekatalog-dan-bela-pengadaan-2023">
-                  <figcaption class="figure-caption text-center">Edukasi Pelatihan <i>E-Katalog</i> dan Bela Pengadaan tahun 2023</figcaption>
-                </figure>
-              </div>
-              <div class="col card p-2">
-                <figure class="figure">
-                  <img src="/assets/images/galeri/sosialisasi-penggunaan-tokodaring-melalui-platform-balimall-2023.jpg" class="figure-img img-fluid cover rounded" alt="sosialisasi-penggunaan-tokodaring-melalui-platform-balimall-2023">
-                  <figcaption class="figure-caption text-center">Sosialisasi Penggunaan Tokodaring melalui platform Balimall</figcaption>
-                </figure>
-              </div>
-            </div> -->
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/sosialisasi-penggunaan-tokodaring-melalui-platform-balimall-2023.jpg" class="  rounded" alt="sosialisasi-penggunaan-tokodaring-melalui-platform-balimall-2023">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Sosialisasi Penggunaan Tokodaring melalui platform Balimall 2023</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/edukasi-menentukan-biaya-produksi-harga-jual-produk-digital-marketing-2023.JPG" class="  rounded" alt="edukasi-menentukan-biaya-produksi-harga-jual-produk-digital-marketing-2023">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Edukasi menentukan biaya produksi, harga jual produk serta <i>Digital Marketing</i> 2023</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/edukasi-leadership-dan-pengelolaan-sdm-pameran-ikm-bali-bangkit-2023.jpg" class="  rounded" alt="edukasi-leadership-dan-pengelolaan-sdm-pameran-ikm-bali-bangkit-2023">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Edukasi <i>Leadership</i> dan pengelolaan SDM Pameran IKM Bali Bangkit tahap 5 tahun 2023</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/edukasi-keuangan-demi-meningkatkan-produktivitas-2022.JPG" class="  rounded" alt="edukasi-keuangan-demi-meningkatkan-produktivitas-2022">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Edukasi keuangan demi meningkatkan produktivitas UMKM 2022</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/bali-digifest-2022.JPG" class="  rounded" alt="bali-digifest-2022">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Bali Digifest 2022</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/bali-showcase-business-matching-2022.jpg" class="  rounded" alt="bali-showcase-business-matching-2022">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Bali Showcase & Business Matching 2022</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/fashion-show-2022.jpg" class="  rounded" alt="fashion-show-2022">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Bali Fashion Show 2022</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/peluncuran-gerakan-bangga-buatan-indonesia-2021.JPG" class="  rounded" alt="peluncuran-gerakan-bangga-buatan-indonesia-2021">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Peluncuran Gerakan Nasional Bangga Buatan Indonesia</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/ikm-bali-goes-to-mall-2021.JPG" class="  rounded" alt="ikm-bali-goes-to-mall-2021">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">IKM Bali goes to Mall tahun 2021</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/kedatangan-menko-marves.JPG" class="  rounded" alt="kedatangan-menko-marves">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Kedatangan Menko Maritim dan Investasi tahun 2021</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/balimall-goes-campus-2020.JPG" class=" rounded" alt="balimall-goes-campus-2020">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Balimall Goes Campus 2020</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/pameran-dekranasda-level-21-2020.JPG" class=" rounded" alt="pameran-dekranasda-level-21-2020">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Pameran Dekranasda di Level 21 tahun 2020</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 card px-0">
+            <div class="card-header p-0">
+              <img src="/assets/images/galeri/sosialisasi-balimall-disperindag-gianyar-2020.JPG" class="  rounded" alt="sosialisasi-balimall-disperindag-gianyar-2020">
+            </div>
+            <div class="card-body">
+              <p class=" text-center">Sosialisasi Balimall di Disperindag Gianyar tahun 2020</p>
+            </div>
+          </div>
+        </div>
         </div>
       </section>
     </div>
@@ -182,7 +214,7 @@
     <footer class="bg-light text-dark py-5">
         <div class="container mt-5 ps-md-5 pe-md-5">
           <div class="row ps-md-5 pe-md-5">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-4-md-4">
               <div class="mb-3" style="height: 100px">
                 <div class="d-flex">
                   <img
@@ -215,7 +247,7 @@
               </div>
             </div>
   
-            <div class="col-md-4 ps-md-5 mt-5 mt-md-0">
+            <div class="col-lg-4 col-md-4-md-4 ps-md-5 mt-5 mt-md-0">
               <h2>Menu</h2>
               <ul class="list-unstyled list-group custom-footer">
                 <li class="py-2">
@@ -228,7 +260,7 @@
                   <a href="partnership.html">Kerjasama</a>
                 </li>
                 <li class="py-2">
-                  <a href="binaan.html">Binaan UMKM Kami</a>
+                  <a href="binaan.html">Hasil Binaan</a>
                 </li>
                 <li class="py-2">
                   <a href="gallery.html" class="active">Galeri</a>
@@ -239,7 +271,7 @@
               </ul>
             </div>
   
-            <div class="col-md-4 mt-5 mt-md-0">
+            <div class="col-lg-4 col-md-4-md-4 mt-5 mt-md-0">
               <h2 class="pb-3">Office Location</h2>
               <div class="text-gray">
                 <p class="lh-lg pb-3">
@@ -334,3 +366,5 @@
   
   </body>
 </html>
+
+
