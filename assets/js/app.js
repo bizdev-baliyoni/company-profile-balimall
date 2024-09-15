@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const unitUsahaData = {
         labels: ["2020", "2021", "2022", "2023", "Juni 2024"],
         datasets: [{
-            label: '',
+            label: 'Unit Kerja',
             data: [210, 466, 237, 53, 21],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -60,13 +60,13 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             x: {
                 ticks: {
-                    display: false // Menyembunyikan label pada sumbu X
+                    display: true // Menyembunyikan label pada sumbu X
                 }
             }
         },
         plugins: {
             legend: {
-                display: false // Menyembunyikan legenda
+                display: true // Menyembunyikan legenda
             },
             tooltip: {
                 callbacks: {
